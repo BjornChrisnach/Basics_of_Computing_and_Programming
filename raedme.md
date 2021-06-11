@@ -1,0 +1,3 @@
+- Basics of Computing and Programming
+- NYUx FCS.PRG.1
+- EDX course

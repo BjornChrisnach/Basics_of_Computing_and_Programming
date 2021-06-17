@@ -19,3 +19,20 @@ while counter < input_num:
         int_num1, int_num2 = int_num2, int_num1 + int_num2
         fibonnaci.append(int_num2)
         print(fibonnaci)
+
+# recursive fibonnaci
+# from functools import lru_cache
+
+# @lru_cache(maxsize=None)
+# def fibonacci_recursive(n):
+#     print("Calculating F", "(", n, ")", sep="", end=", ")
+
+#     # Base case
+#     if n == 0:
+#         return 0
+#     elif n == 1:
+#         return 1
+
+#     # Recursive case
+#     else:
+#         return fibonacci_recursive(n-1) + fibonacci_recursive(n-2)
